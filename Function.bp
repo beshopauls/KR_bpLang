@@ -1,0 +1,21 @@
+integer i, k;
+integer cube(integer i)
+begin
+return i * i * i;
+end
+
+void add(integer n, integer k)
+begin
+integer j;
+j := n + cube(k);
+writeInteger(j);
+writeString("\n");
+end
+
+integer main()
+begin
+k := readInteger();
+i := readInteger();
+add(k,i); 
+return 0;
+end
