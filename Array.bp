@@ -1,0 +1,17 @@
+
+
+
+
+/*Array and for loop*/
+integer main()
+begin
+writeString("Array and for loop\n");
+integer array[20], i;
+          for(i := 0; i < 20; i:=i+1)
+          begin
+                  array[i] := (rand() mod 100)+1;
+                  writeInteger(array[i]);
+       	  end 
+writeString("\n"); 
+return 0;
+end

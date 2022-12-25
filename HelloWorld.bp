@@ -1,0 +1,25 @@
+/* My first program in MyLang bp - myprog.bp*/
+integer main()
+begin
+integer x:= 10;
+writeInteger(x);
+writeString("\n");
+x:=readInteger();
+writeInteger(x);
+writeString("\n");
+real f:=0.0;
+f:=readReal();
+writeReal(f);
+character str[1000];
+readString(str);
+writeString(str); 
+writeString("\n");        
+integer i;
+          for(i := 0; i < 20; i:=i+1)
+          begin
+                  writeInteger(i);
+       	  end 
+writeString("\n"); 
+return 0;
+end
+
